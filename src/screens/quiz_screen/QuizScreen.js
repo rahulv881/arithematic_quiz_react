@@ -45,7 +45,7 @@ export default function QuizScreen() {
                     {
                         (firstQuizCompleted && secondQuizCompleted ) ? 
                             "Total Score: "+(parseInt(score1)+parseInt(score2))
-                        : "Attempt all question to submit the quiz"
+                        : "Attempt all question to submit the quiz and get a score"
                     }
                 </Typography>
             </Grid>
