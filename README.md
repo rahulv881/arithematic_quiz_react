@@ -1,8 +1,8 @@
 # Arithmetic quiz
 
 There are two quiz section contain arithematic:
-    1. Operations ( addition , subtraction, multiplication, division ) 
-    2. Operand ranging between 0-10.
+1. Operations ( addition , subtraction, multiplication, division ) 
+2. Operand ranging between 0-10.
 
 ## Available Scripts
 
