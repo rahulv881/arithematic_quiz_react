@@ -10,7 +10,7 @@ export const getAnswer = (x, y, operator) => {
             ans = x - y;
             break;
         case '/':
-            ans = x / y;
+            ans = (x / y).toFixed(2);
             
             break;
         case '*':

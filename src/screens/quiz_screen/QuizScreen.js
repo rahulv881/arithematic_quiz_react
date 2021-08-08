@@ -32,6 +32,7 @@ export default function QuizScreen() {
         <Grid container style={{ padding: "32px",height:"90vh"}} spacing={2} >
             <Grid item xs={12}>
                 <Typography variant="h4" >Arithematic Quiz</Typography>
+                <Typography variant="body2" align="left">Note: Please enter answer upto 2 decimal precision in case of division</Typography>
             </Grid>
             <Grid item xs={12} md={6}>
                 <Quiz quizSubmitted={firstQuizCompleted} setQuizSubmitted={setFirstQuizCompleted} setQuizScore={setScore1} />
@@ -43,7 +44,7 @@ export default function QuizScreen() {
                 <Typography variant="h4" >
                     {
                         (firstQuizCompleted && secondQuizCompleted ) ? 
-                            "Total Score: "+score1+score2
+                            "Total Score: "+(parseInt(score1)+parseInt(score2))
                         : "Attempt all question to submit the quiz"
                     }
                 </Typography>
